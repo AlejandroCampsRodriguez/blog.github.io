@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blog de tecnologìa</title>
+		
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="Alejnadro Camps Rodriguez">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="../assets/css/theme-3.css">
+    <link rel="stylesheet" href="../assets/css/estilos2.css">
+
+</head> 
+<body>
+
+   <!-- header -->
+   <header class="header text-center">	    
+    <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html">Camps's Blog</a></h1>
+      <!-- Nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark" >
+         
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navigation" class="collapse navbar-collapse flex-column" >
+      <div class="profile-section pt-3 pt-lg-0">
+          <img class="profile-image mb-3 rounded-circle mx-auto" src="../assets/images/profile.png" alt="image" >			
+        
+        <div class="bio mb-3">Hi, my name is Alejandro Camps. I'am web Developer, you can click below for more information About me <br><a href="about.html">Find out more about me</a></div>
+        <!--bio-->
+          <!--social-list-->
+        <ul class="social-list list-inline py-3 mx-auto">
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/alejandro-camps-a26a32145/?locale=en_US"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                <li class="list-inline-item"><a href="https://github.com/AlejandroCampsRodriguez/AlejandroCampsRdriguez"><i class="fa-brands fa-github"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100010623911645"><i class="fa-brands fa-facebook-f"></i></a></li>
+          </ul>
+            <hr> 
+      </div>
+      <!--profile-section-->				
+      <ul class="navbar-nav flex-column text-start">
+        <li class="nav-item">
+            <a class="nav-link active" href="index.html"><i class="fas fa-home fa-fw me-2"></i>Blog Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw me-2"></i>Blog Post</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw me-2"></i>About Me</a>
+        </li>
+      </ul>
+      
+      <div class="my-2 my-md-3">
+          <a class="btn btn-primary" href="https://www.github.com/" target="_blank">Get in Touch</a>
+      </div>
+    </div>
+  </nav>
+  </header>
+ 
+ <div class="main-wrapper">
+  <section class="cta-section theme-bg-light py-5">
+    <div class="container text-center single-col-max-width">
+      <h2 class="heading">DevBlog - A Blog Template Made For Developers</h2>
+      <div class="intro">Welcome to my blog. Subscribe and get my latest blog post in your inbox.</div>
+      <div class="single-form-max-width pt-3 mx-auto">
+        <form class="signup-form row g-2 g-lg-2 align-items-center">
+                  <div class="col-12 col-md-9">
+                      <label class="sr-only" for="semail">Your email</label>
+                      <input type="email" id="semail" name="semail1" class="form-control me-md-1 semail" placeholder="Enter email">
+                  </div>
+                  <div class="col-12 col-md-2">
+                      <button type="submit" class="btn btn-primary">Subscribe</button>
+                  </div>
+              </form><!--signup-form-->
+      </div><!--single-form-max-width-->
+    </div><!--container-->
+  </section>
+
+  <div class="row">
+    <div class="col-12 mx-2 my-2 d-flex justify-content-center">
+      <img class="img-fluid post-thumb " src="../assets/images/blog/blog-post-thumb-1.jpg" alt="image">
+    </div>
+  </div>
+
+   <div class="row mx-4">
+    <div class="col-12 ">
+      <h1>A Guide to Functional Programming</h1> 
+     <div class="font"> Functional programming has gained popularity due to its ability to provide efficient and scalable solutions. It's a declarative approach to programming, where the focus is on specifying what the program should accomplish, rather than how it should accomplish it.
+
+      In this post, we'll look into the core concepts and advantages of functional programming, as well as explore some of the most popular functional programming languages.</div>
+      
+      <p><h3>What is Functional Programming?😙</h3></p>
+    <div class="font">
+      Functional programming is a declarative programming paradigm that focuses on applying pure functions in sequence to solve complex problems. It treats functions as first-class citizens, allowing them to be passed as arguments to other functions, returned as values from functions, and stored in data structures.
+      👉Functional programming excels at mathematical functions where values don't have any correlation and doesn't make use of concepts like shared state and mutable data used in object-oriented programming.
+      Core Concepts of Functional Programming<br>
+    </div>
+     <h4> #️⃣1-First-class functions: 🚀</h4>
+    <div class="font">
+      Functions are treated as data type variables and can be used like any other variables.
+      Example 1: In JavaScript, we can pass a function as an argument to another function, just like we would pass a variable.
+    </div>
+
+    <div  class="img d-flex justify-content-center" >  
+       <img  src="../assets/images/programming-components-00.png" alt="imagen ">
+    </div>
+  <p>
+    <h4> #️⃣2-Recursion:🚀</h4>     
+<div class="font">
+  Functional programs avoid constructions that create different outputs on every execution. Instead, recursive functions call themselves repeatedly until they reach the desired state or solution known as the base case.
+Example: In Python, we can use recursion to calculate the factorial of a number.
+</div> 
+ </p>
+  <div  class="img d-flex justify-content-center" >  
+    <img src="../assets//images/programming-components-01.png" alt="">
+    </div>
+    <div class="font">
+      In this example, the factorial function calls itself repeatedly until it reaches the base case (n == 0), at which point it returns the final result.
+    </div>
+<p>
+
+
+        <h4> #️⃣3-Immutability:🚀</h4>
+  
+     <div class="font">
+      Variables cannot be modified after being created. This ensures that the program's state remains constant throughout its runtime.
+     Example: In Haskell, we can create an immutable list and then use a function   to create a new list with the elements transformed.
+     </div>
+     <div  class="img d-flex justify-content-center" >  
+      <img src="../assets//images/programming-components-03.png" alt="">
+      </div>        
+    </p>
+
+   <div class="font">
+    In this example, the myList variable is immutable, and we create a new list doubleList by applying the map function to myList. The original list remains unchanged.
+    For more resources on Haskell: <a href="https://www.haskell.org/documentation/" target="_blank"> www.haskell.org/documentation/ ▶️</a>
+   </div>
+<div  class="img d-flex justify-content-center" >  
+<img src="../assets/images/programming-components-04.png" alt="">
+</div>
+<p>
+  <h4> #️⃣4-Pure functions:🚀</h4>
+ <div class="font">
+  Pure functions produce the same output if the given input is the same and have no side effects.
+
+  Example: In JavaScript, we can create a pure function that takes a string as input and returns the string with all vowels removed.
+ </div>
+
+    <div  class="img d-flex justify-content-center" >  
+      <img src="../assets/images/programming-components-05.png" alt="">
+      </div>
+      <div class="font">
+        In this example, the removeVowels function takes a string as input and returns a new string with all vowels removed. The function has no side effects and always returns the same output given the same input.
+      </div>
+</p>
+
+<p>
+  <h4> #️⃣5-High-order functions:🚀</h4>
+     <div class="font">
+      Functions that accept other functions as parameters or return functions as outputs.
+     </div>
+ 
+
+  <div  class="img d-flex justify-content-center" >  
+    <img src="../assets/images/programming-components-06.png" alt="">
+    </div>
+   <div class="font">
+    In this example, the applyFunction function takes another function (double or square) as an argument, and applies it to a list of numbers. The function returns a new list with the results of applying the function to each number.
+    Example 2: Haskell's high-order functions accept other functions as parameters or return functions as outputs.👇👇
+   </div>
+    <div  class="img d-flex justify-content-center" >  
+      <img src="../assets/images/programming-components-07.png" alt="">
+      </div>
+</p>
+
+<p>
+<div class="font">
+  <ol>
+    <h4> 💻Advantages of Functional Programming</h4>
+   <li>Easy to debug: Pure functions produce the same output as the given input, making it easier to check for errors in code.</li>
+   <li>Lazy evaluation: Computations are only evaluated when needed, reducing unnecessary computations.</li>
+   <li>Supports parallel programming: Immutable variables make it easy to create parallel programs, reducing the amount of change within the program.</li>
+   <li>Easy to read: Functions are easy to read and understand, making it easier to understand the codebase and purpose.</li>
+   <li>Efficient: Functional programs don't rely on external sources or variables, making them easily reusable across the program.</li>
+   </ol>
+</div>
+  <h4> 👍Drawbacks of Functional Programming</h4>
+<div class="font">
+  <ol>
+    <li>Terminology problems: Functional programming has a lot of terminologies that may be difficult to explain to a layman.</li>
+    <li>Recursion: Although recursion is a powerful feature, it can be expensive to use, requiring higher memory usage.</li>
+    Popular Functional Programming Languages
+    <li>Haskell: A statically typed programming language designed specifically for functional programming.</li>
+    <li>Python: Although designed for object-oriented programming, Python supports functional programming features like lambda expressions and attributes.</li>
+    <li>Erlang: A functional programming language best suited for concurrent systems, used by messaging apps like WhatsApp and Discord.</li>
+    <li>JavaScript: Supports functional programming features like lambda expressions and attributes, making it a popular choice among multi-paradigm languages.</li>
+    <li>Clojure: A functional programming language that provides tools to avoid mutable states, supporting both mutable and immutable data types.</li>
+    <li>Scala: A language that supports both functional and object-oriented programming, designed to address the shortcomings of Java.</li>
+    <li>Rust: A systems programming language that supports functional programming concepts like immutability and recursion.</li>
+    <li>Swift: A modern programming language developed by Apple, which supports functional programming features like closures and higher-order functions.</li>
+    <li>F#: A functional programming language developed by Microsoft, which is part of the .NET ecosystem.</li>
+    <li>Lisp: A family of programming languages that are based on functional programming concepts, including Scheme and Common Lisp.</li>
+    <li>OCaml: A functional programming language developed by INRIA, which is used in a variety of applications, including web development and scientific computing.</li>
+    <li>R: A programming language and environment for statistical computing and graphics, which supports functional programming concepts like closures and higher-order functions.</li>
+    <li>Julia: A high-performance programming language that supports functional programming concepts like immutability and recursion.</li>
+    <li>Kotlin: A modern programming language developed by JetBrains, which supports functional programming features like lambda expressions and higher-order functions.</li>
+    <li>TypeScript: A statically typed programming language developed by Microsoft, which supports functional programming features like lambda expressions and higher-order functions.</li>
+    NOTE:There are still many other programming languages that support functional programming concepts.
+    </ol>
+</div>
+</p>
+
+<p>
+<div class="font">
+  Conclusion
+  Functional programming is a powerful paradigm that provides efficient and scalable solutions to complex business problems. By understanding the core concepts and advantages of functional programming, developers can unlock new ways to solve problems and increase their chances of standing out in the global talent pool. Whether you're a seasoned programmer or just starting out, functional programming is definitely worth exploring.
+</div>
+<div class="my-2 font-one">
+
+  <ul>
+    <li>Functional programming is a declarative programming paradigm that focuses on applying pure functions in sequence to solve complex problems.</li>
+    
+    <li>Core concepts of functional programming include first-class functions, recursion, immutability, pure functions, and high-order functions.</li>
+    
+    <li>Advantages of functional programming include easy debugging, lazy evaluation, support for parallel programming, easy readability, and efficiency.</li>
+    
+    <li>Drawbacks of functional programming include terminology problems and recursion.</li>
+    
+    <li>Drawbacks of functional programming include terminology problems and recursion.</li>
+    
+    <li>Popular functional programming languages include Haskell, OCaml, Elixir, Python, Erlang, JavaScript, Clojure, and Scala.</li>
+    
+    </ul>
+</div>
+</p>
+
+    
+    </div>
+   </div>
+
+
+ </div>
+
+  
+</body>
+</html>
